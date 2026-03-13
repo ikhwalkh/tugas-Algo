@@ -37,7 +37,7 @@ void insertionsort() { // procedure insertion sort
     
     //input elemen array
     for (int i = 0; i < n; i++) {         //Perulangan Sorting
-        temp = arr[i];
+        temp = arr[i];                    //menyimpan data sementara
         j = i - 1;
 
         while (j >= 0 && arr[j] > temp) {
