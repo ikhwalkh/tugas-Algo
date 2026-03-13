@@ -47,8 +47,9 @@ void insertionsort() { // procedure insertion sort
         }
 
         arr[j + 1] = temp;
-
-        cout << "\nStep " << i << " : ";
+        
+        //Menampilkan Step Sorting
+        cout << "\nStep " << i << " : "; 
         for (int k = 0; k < n; k++) {
             cout << arr[k] << " ";
         }
