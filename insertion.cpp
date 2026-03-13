@@ -67,6 +67,7 @@ void display() {
     cout << endl;
 }
 
+//main input atau untuk menjalankan code nya
 int main() {
     input();
     insertionsort();
