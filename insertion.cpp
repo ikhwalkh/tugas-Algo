@@ -30,6 +30,7 @@ void input() { // procedure input
     }
 }
 
+//insertionsort 
 void insertionsort() { // procedure insertion sort
     int temp;
     int j;
